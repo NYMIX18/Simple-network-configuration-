@@ -1,1 +1,43 @@
+PRJECT FILE- Simple Network Configuration (Cisco Packet Tracer)
+Project Title : Simple Network Configuration - Subnetting Exercise 
+Objectives:
+To design a small office network for two departments (Accounts and Delivery),
+Subnet a given IP block, assign static IP addresses to all devices, and 
+verify conectivity using ping
+
+Base network: 192.168.40.0/24
+subnetting 
+Accounts Department:
+192.168.40.0/25 (192.168.40.1- 192.168.40.126)
+Delivery department:
+192.168.40.128/25(192.168.40.129- 192.168.40.254)\
+
+Devices per department 
+-2pcs 
+-1 printer 
+-1 switches (connects department devices)
+-Shared Router (Connects both departments)
+
+Configuration steps 
+1. Subnetted 192.168.40.0/24 into two /25 subnets for Accounts and Delivery 
+2. Assgned static IPs, subnet masks, and default gateways to all PCs and printers 
+3. Connected department devices to their respective switch
+4. Connected both switches to the router 
+5.Configured router interfaces with gateway IPs for each department subnet
+6. Tested  conectivity with ping - within department and accross department 
+
+Testin results:
+-ping within same department: Succesful
+-ping accross departments (Accounts <-> Delivery): Succesful
+Tools used 
+-- Cisco Packet Tracer 
+Author : Nym Kiprop
+
+
+
+
+
+- 
+- 
+
 
